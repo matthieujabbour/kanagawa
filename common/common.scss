@@ -3,6 +3,10 @@
 @import 'topic-list';
 @import 'select-kit';
 
+body {
+  background: #f6f6f6 !important;
+}
+
 // General
 .btn {
   border-radius: 2rem;
