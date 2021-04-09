@@ -1,6 +1,6 @@
-@import "variables";
-@import "topic";
-@import "topic-list";
+@import 'variables';
+@import 'topic';
+@import 'topic-list';
 
 // General
 .btn {
@@ -16,8 +16,7 @@ p {
   #site-logo {
     max-height: 2em;
     max-width: 100%;
-    filter: invert(get_invert($logo-invert-colors))
-      hue-rotate(#{$logo-hue-rotation}deg)
+    filter: invert(get_invert($logo-invert-colors)) hue-rotate(#{$logo-hue-rotation}deg)
       brightness(calc((#{$logo-brightness} / 10) + 1));
   }
 }
@@ -61,6 +60,9 @@ p {
     position: relative;
     background-color: $tertiary;
     color: var(--light-accent);
+    &:hover {
+      background-color: lighten($tertiary, 30%);
+    }
     .d-icon {
       color: currentColor;
     }
@@ -132,7 +134,7 @@ ol.category-breadcrumb {
   position: relative;
   transition: all 0.2s;
   &::before {
-    content: "";
+    content: '';
     display: block;
     width: 1rem;
     height: 1rem;
@@ -322,7 +324,7 @@ ol.category-breadcrumb {
     font-weight: normal;
     color: lighten($primary, 40);
     &::after {
-      content: "✨";
+      content: '✨';
     }
   }
 }
@@ -343,7 +345,7 @@ ol.category-breadcrumb {
   color: lighten($primary, 40);
   background-color: transparent;
   &::after {
-    content: "🤖";
+    content: '🤖';
   }
 }
 
