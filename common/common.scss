@@ -6,6 +6,10 @@
 // General
 .btn {
   border-radius: 2rem;
+  .admin-interface & {
+    border-radius: none;
+    background-color: lighten(desaturate($tertiary, 100%), 50%);
+  }
 }
 
 p {
@@ -559,6 +563,11 @@ input[type='url'],
 input[type='search'],
 input[type='tel'],
 input[type='color'],
-.select-kit.combo-box .select-kit-header {
+.select-kit.combo-box .select-kit-header,
+.select-kit.multi-select .multi-select-header {
   border: 1px solid lighten(desaturate($color: $tertiary, $amount: 100%), 25%);
+}
+
+.admin-customize .themes-list-header .tab {
+  border-radius: 0;
 }
