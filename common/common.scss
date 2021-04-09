@@ -11,8 +11,7 @@ body {
 .btn {
   border-radius: 2rem;
   .admin-interface & {
-    border-radius: 0;
-    //background-color: lighten(desaturate($tertiary, 100%), 33%);
+    border-radius: 0.25rem;
   }
 }
 
