@@ -1,17 +1,16 @@
 {
-  "name": "zeronoise",
+  "name": "Kanagawa",
   "component": false,
   "license_url": null,
-  "about_url": "https://github.com/ruidovisual/zeronoise",
-  "authors": "Miguel Arroyo - http://ruidovisual.com",
+  "about_url": "https://github.com/pbonnin-kiv/kanagawa",
+  "authors": "Pierre Bonnin - Based on zeronoise theme by Miguel Arroyo",
   "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
-  "assets": {
-  },
+  "assets": {},
   "color_schemes": {
     "Zeronoise": {
-      "primary": "2d2a3d", // Applies as solid color to Post Titles and to other text as a tint 
+      "primary": "2d2a3d", // Applies as solid color to Post Titles and to other text as a tint
       "secondary": "f4f4f9", // Applies to the background and .nav-pills>li a.active
       "tertiary": "4f31cd", // Call to actions and links
       "quaternary": "ffffff", // You can see it in the top menu
@@ -23,7 +22,6 @@
       "love": "fe5c5c"
     }
   },
-  "modifiers": {
-  },
+  "modifiers": {},
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
