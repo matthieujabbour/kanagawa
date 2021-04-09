@@ -540,7 +540,7 @@ div.menu-links-header .menu-links-row li a.active {
     }
 
     .desc {
-      color: $primary;
+      color: lighten($primary, 20%);
     }
   }
 }
