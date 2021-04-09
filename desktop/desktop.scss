@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 .container {
   &.list-container,
@@ -21,7 +21,8 @@
 
 #topic-title {
   .topic-statuses {
-    font-size: 3.4rem;
+    font-size: 3rem;
+    line-height: 1.1;
   }
   .title-wrapper {
     width: 70%;
@@ -29,7 +30,7 @@
   }
   h1 {
     a {
-      font-size: 3.4rem;
+      font-size: 3rem;
     }
     .edit-topic {
       font-size: 1em;
