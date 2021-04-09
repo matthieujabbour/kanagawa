@@ -16,6 +16,13 @@ body {
   }
 }
 
+.alert {
+  border-radius: 0.25rem;
+  .alert-info {
+    background: var(--secondary);
+  }
+}
+
 p {
   line-height: 1.6;
 }
