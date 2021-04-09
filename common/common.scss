@@ -18,7 +18,7 @@ body {
 
 .alert {
   border-radius: 0.25rem;
-  .alert-info {
+  &.alert-info {
     background: var(--secondary);
   }
 }
