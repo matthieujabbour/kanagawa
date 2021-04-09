@@ -521,3 +521,9 @@ div.menu-links-header {
 div.menu-links-header .menu-links-row li a.active {
   border-bottom-color: var(--main-background);
 }
+
+.nav-stacked {
+  a.active {
+    background-color: darken($tertiary, 10%);
+  }
+}
