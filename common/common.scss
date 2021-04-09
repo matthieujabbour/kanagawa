@@ -61,7 +61,7 @@ p {
     background-color: $tertiary;
     color: var(--light-accent);
     &:hover {
-      background-color: lighten($tertiary, 30%);
+      background-color: darken($tertiary, 15%);
     }
     .d-icon {
       color: currentColor;
