@@ -22,7 +22,7 @@
       "love": "fe5c5c"
     },
     "Kanagawa": {
-      "primary": "252c3d", // Applies as solid color to Post Titles and to other text as a tint
+      "primary": "0d353d", // Applies as solid color to Post Titles and to other text as a tint
       "secondary": "f6f6f6", // Applies to the background and .nav-pills>li a.active
       "tertiary": "03b2d8", // Call to actions and links
       "quaternary": "ffffff", // You can see it in the top menu
