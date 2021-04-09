@@ -157,7 +157,8 @@ ol.category-breadcrumb {
 }
 
 #create-topic {
-  @extend %btn--big;
+  //@extend %btn--big;
+  padding: 0.65em 2rem;
 }
 
 .badge {
