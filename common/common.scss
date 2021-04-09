@@ -416,11 +416,14 @@ ol.category-breadcrumb {
 
 .d-header-icons,
 .drop-down-mode .d-header-icons {
+  .icon,
+  .active .icon {
+    border-radius: 50%;
+  }
   .icon:hover,
   .icon:focus,
   .active .icon,
   .active .icon:hover {
-    border-radius: 50%;
     background-color: var(--tertiary);
     border-color: transparent;
     .d-icon {
