@@ -7,8 +7,8 @@
 .btn {
   border-radius: 2rem;
   .admin-interface & {
-    border-radius: none;
-    background-color: lighten(desaturate($tertiary, 100%), 50%);
+    border-radius: 0;
+    background-color: lighten(desaturate($tertiary, 100%), 33%);
   }
 }
 
