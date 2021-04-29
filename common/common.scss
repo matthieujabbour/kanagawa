@@ -105,6 +105,11 @@ p {
     &.categories-admin-dropdown-button {
       padding: 0.63rem 0.68rem;
     }
+    &.is-selected {
+      .combo-box-header {
+        background: white;
+      }
+    }
   }
 }
 
